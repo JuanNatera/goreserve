@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +12,7 @@
 
 body{
     background-color: #6F2A8A;
-    height: auto;
-    width: 100%;        /* O el tamaño deseado */
+    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -28,8 +31,8 @@ body{
 }
 
 #header-nav{
-    display: flex;
     width: 100vw;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -163,7 +166,7 @@ body{
     justify-self: center;
     border-bottom: 2px solid #a0a0a0;
     margin-bottom: 120px;
-    width: 60vw;
+    width: 90vw;
     padding: 20px;
     height: auto;
 }
@@ -260,6 +263,18 @@ footer{
     .hamb-menu{
         display: flex;
     }
+
+    .hamb-menu img{
+        width: 30px;
+    }
+    #search-bar img{
+        width: 30px;
+    }
+    #search-bar input{
+        width: 30vw;
+        height: 30px;
+    }
+
     .resp-menu{
         display: none;
     }
@@ -274,7 +289,7 @@ footer{
 
     #second-presentation{
         margin-bottom: 120px;
-        width: 100vw;
+        width: 80vw;
         text-align: center;
         padding-left: 0;
     }
